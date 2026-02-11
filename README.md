@@ -8,4 +8,4 @@ The goal of this project is to create a metasyntax, describe the metasyntax usin
 
 `generic_metasyntax.gms` - Defines the Generic Metasyntax using Generic Metasyntax
 
-`test.py` - Parses generic_metasyntax.gms using the defintions in gms.py, generates a grammar for Generic Metasyntax from the resulting parse tree, and uses the generated grammar to parse generic_metasyntax.gms again. Equivalency of production rules is checked
+`test.py` - Parses generic_metasyntax.gms using the defintions in gms.py, generates a grammar for Generic Metasyntax from the resulting parse tree, and uses the generated grammar to parse generic_metasyntax.gms again. Equivalency of production rules is checked, proving the 'parse-generate' cycle can be repeated infintely
