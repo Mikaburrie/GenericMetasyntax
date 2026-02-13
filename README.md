@@ -1,6 +1,6 @@
 # Generic Metasyntax for Context Free Language (CFL) Parsing
 ## Overview
-The goal of this project is to create a metasyntax, represent the metasyntax using itself, and then create a parser for the metasyntax that can generate a parser for the metasyntax (that can generate a parser for the metasyntax... ad infinitum)
+A Python based metasyntax for parsing Context Free Languages. The goal of this project is to create a metasyntax, represent the metasyntax using itself, and then create a parser for the metasyntax that can generate a parser for the metasyntax (that can generate a parser for the metasyntax... ad infinitum)
 
 #### Files
 `cfl.py` - Defines classes for parsing Context Free Languages (CFLs) based on generator functions. Rule names that start with an underscore (_) are excluded from the parse tree output
