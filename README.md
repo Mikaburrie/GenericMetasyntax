@@ -9,4 +9,4 @@ A Python based metasyntax for parsing Context Free Languages. The goal of this p
 
 `generic_metasyntax.gms` - Represents the Generic Metasyntax using Generic Metasyntax
 
-`test.py` - Parses generic_metasyntax.gms using the definitions in gms.py, generates a grammar for Generic Metasyntax from the resulting parse tree, and uses the generated grammar to parse generic_metasyntax.gms again. Equivalency of production rules from gms.py and generic_metasyntax.gms is checked, proving the 'parse, generate grammar, parse, generate grammar...' cycle can be repeated infintely. By extension, this proves that the metasyntax represents itself
+`test.py` - Parses generic_metasyntax.gms using the definitions in gms.py, generates a grammar for Generic Metasyntax from the resulting parse tree, and uses the generated grammar to parse generic_metasyntax.gms again. Equivalency of production rules between gms.py and generic_metasyntax.gms is checked, proving the 'parse, generate grammar, parse, generate grammar...' cycle can be repeated infintely. By extension, this proves that the metasyntax represents itself
