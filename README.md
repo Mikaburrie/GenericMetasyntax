@@ -9,4 +9,4 @@ The goal of this project is to create a metasyntax, represent the metasyntax usi
 
 `generic_metasyntax.gms` - Represents the Generic Metasyntax using Generic Metasyntax
 
-`test.py` - Parses generic_metasyntax.gms using the defintions in gms.py, generates a grammar for Generic Metasyntax from the resulting parse tree, and uses the generated grammar to parse generic_metasyntax.gms again. Equivalency of production rules is checked, proving the 'parse, generate grammar, parse, generate grammar...' cycle can be repeated infintely
+`test.py` - Parses generic_metasyntax.gms using the definitions in gms.py, generates a grammar for Generic Metasyntax from the resulting parse tree, and uses the generated grammar to parse generic_metasyntax.gms again. Equivalency of production rules is checked, proving the 'parse, generate grammar, parse, generate grammar...' cycle can be repeated infintely
