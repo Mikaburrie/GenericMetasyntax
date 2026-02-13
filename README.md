@@ -1,12 +1,12 @@
 # Generic Metasyntax for Context Free Language (CFL) Parsing
 ## Overview
-A Python based metasyntax for parsing Context Free Languages. The goal of this project is to create a metasyntax, represent the metasyntax using itself, and then create a parser for the metasyntax that can generate a parser for the metasyntax (that can generate a parser for the metasyntax... ad infinitum)
+A Python based metasyntax for parsing Context Free Languages. The goal of this project is to create a metasyntax, represent the metasyntax using itself, and create a parser for the metasyntax that can generate a parser for the metasyntax (that can generate a parser for the metasyntax... ad infinitum)
 
 #### Files
-`cfl.py` - Defines classes for parsing Context Free Languages (CFLs) based on generator functions. Rule names that start with an underscore (_) are excluded from the parse tree output
+`cfl.py` - Defines classes for parsing Context Free Languages (CFLs) using generator functions. Rule names that start with an underscore (_) are excluded from the parse tree output
 
 `gms.py` - Defines the Generic Metasyntax using parsers from clf.py
 
 `generic_metasyntax.gms` - Represents the Generic Metasyntax using Generic Metasyntax
 
-`test.py` (executable) - Parses generic_metasyntax.gms using the definitions in gms.py, generates a grammar for Generic Metasyntax from the resulting parse tree, and uses the generated grammar to parse generic_metasyntax.gms again. Equivalency of production rules between gms.py and generic_metasyntax.gms is checked, proving the 'parse, generate grammar, parse, generate grammar...' cycle can be repeated infintely. By extension, this proves that the metasyntax represents itself
+`test.py` (executable) - Parses generic_metasyntax.gms using the definitions in gms.py, generates a grammar for Generic Metasyntax from the resulting parse tree, and uses the generated grammar to parse generic_metasyntax.gms again. Equivalency of production rules between gms.py and generic_metasyntax.gms is checked, proving the 'parse, generate grammar, parse, generate grammar...' cycle can be repeated infintely. By extension, this proves the metasyntax represents itself
